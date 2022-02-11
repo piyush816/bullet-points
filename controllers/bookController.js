@@ -38,7 +38,7 @@ const getBook = async (req, res) => {
   res.json({ success, message, data });
 };
 
-// return only one book
+// update a book
 const updateBook = async (req, res) => {
   // response variables
   let message = "";

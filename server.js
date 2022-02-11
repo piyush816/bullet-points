@@ -10,7 +10,6 @@ const PORT = process.env.PORT || 8000;
 const app = express();
 
 // database connection
-
 mongoose
   .connect("mongodb://localhost/bulletpoints")
   .then(() => console.log("connected to db"))
